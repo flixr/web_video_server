@@ -28,6 +28,7 @@ branches:
   only:
     - master
     - develop
+    - steady_timer_travis
 
 install:
   - git clone https://github.com/ros-industrial/industrial_ci.git .ci_config
